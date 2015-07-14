@@ -1,0 +1,17 @@
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX edgar: <http://edgarwrap.ontologycentral.com/vocab/edgar#>
+PREFIX us-gaap2009: <http://edgarwrap.ontologycentral.com/vocab/us-gaap-2009-01-31#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX measure: <http://purl.org/linked-data/sdmx/2009/measure#>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#>
+
+SELECT ?bankSEC ?value ?dateBegin ?dateEnd WHERE {
+?bn edgar:subject us-gaap2009:Assets .
+?facts rdfs:seeAlso ?bn .
+?bankSEC edgar:issued ?facts .
+?bn measure:obsValue ?value .
+?bn ical:dtstart ?dateBegin .
+?bn ical:dtend ?dateEnd .
+}
