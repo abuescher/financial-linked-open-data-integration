@@ -1,0 +1,6 @@
+(1)
+	a) bin/ldfu.sh -i datastore_new2.nq -p abfragen/BA_5_PAPER_2_effektivitaet_produktion/get_information.n3 > store_sec.nt
+	b) bin/ldfu.sh -i store_sec.nt -q abfragen/BA_5_PAPER_2_effektivitaet_produktion/eff_prod_sec.rq abfragen/BA_5_PAPER_2_effektivitaet_produktion/output.tsv
+
+(2)
+bin/ldfu.sh -i datastore_new2.nq -p abfragen/BA_5_PAPER_2_effektivitaet_produktion/get_information.n3 -q abfragen/BA_5_PAPER_2_effektivitaet_produktion/eff_prod_sec.rq abfragen/BA_5_PAPER_2_effektivitaet_produktion/output.tsv

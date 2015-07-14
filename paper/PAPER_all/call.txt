@@ -1,0 +1,14 @@
+(1)
+
+a)	bin/ldfu.sh -i datastore_new2.nq -p abfragen/PAPER_all/get_information.n3 > store_db_sec_yahoo.nt	
+b)	bin/ldfu.sh -i store_db_sec_yahoo.nt -q abfragen/PAPER_all/turnover_emp.rq abfragen/PAPER_all/1_output_turnover_emp.tsv -q abfragen/PAPER_all/turnover_loc.rq abfragen/PAPER_all/2_output_turnover_loc.tsv -q abfragen/PAPER_all/eff_prod_sec.rq abfragen/PAPER_all/3_output_eff_prod.tsv -q abfragen/PAPER_all/netIncomeLoss_sec.rq abfragen/PAPER_all/4_output_netIncomeLoss.tsv 
+
+-q abfragen/PAPER_all/incomeLoss_yahoo.rq abfragen/PAPER_all/5_output_yahoo.tsv
+ 
+
+
+(2)
+
+bin/ldfu.sh -i datastore_new2.nq -p abfragen/PAPER_all/get_information.n3 -q abfragen/PAPER_all/turnover_emp.rq abfragen/PAPER_all/1_output_turnover_emp.tsv -q abfragen/PAPER_all/turnover_loc.rq abfragen/PAPER_all/2_output_turnover_loc.tsv -q abfragen/PAPER_all/eff_prod_sec.rq abfragen/PAPER_all/3_output_eff_prod.tsv -q abfragen/PAPER_all/netIncomeLoss_sec.rq abfragen/PAPER_all/4_output_netIncomeLoss.tsv 
+
+-q abfragen/PAPER_all/incomeLoss_yahoo.rq abfragen/PAPER_all/5_output_yahoo.tsv

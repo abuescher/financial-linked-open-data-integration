@@ -1,0 +1,10 @@
+(1)
+	
+	a) bin/ldfu.sh -i datastore_new2.nq -p abfragen/BA_6_PAPER_4_netIncomeLoss/get_information.n3 > store_sec.nt
+	
+	b) bin/ldfu.sh -i store_sec.nt -q abfragen/BA_6_PAPER_4_netIncomeLoss/netIncomeLoss_sec.rq abfragen/BA_6_PAPER_4_netIncomeLoss/output.tsv 
+
+
+
+(2)
+bin/ldfu.sh -i datastore_new2.nq -p abfragen/BA_6_PAPER_4_netIncomeLoss/get_information.n3 -q abfragen/BA_6_PAPER_4_netIncomeLoss/netIncomeLoss_sec.rq abfragen/BA_6_PAPER_4_netIncomeLoss/output.tsv
