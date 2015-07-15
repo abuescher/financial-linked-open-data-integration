@@ -1,0 +1,146 @@
+\def\etalchar#1{$^{#1}$}
+\begin{thebibliography}{KWOW{\etalchar{+}}14}
+
+\bibitem[AlGa09]{AlGa09}
+Ugo Albertazzi and Leonardo Gambacorta.
+\newblock Bank profitability and the business cycle.
+\newblock {\em Journal of Financial Stability}, 5(4), 2009, S.~393--409.
+
+\bibitem[BhSh07]{BhSh07}
+Rajat Bhagwat and Milind~Kumar Sharma.
+\newblock Performance measurement of supply chain management: A balanced
+  scorecard approach.
+\newblock {\em Computers \& Industrial Engineering}, 53(1), 2007, S.~43--62.
+
+\bibitem[BRLD10]{BRLD10}
+Jie Bao, Graham Rong, Xian Li and Li~Ding.
+\newblock Representing Financial Reports on the Semantic Web: a Faithful
+  Translation from XBRL to OWL.
+\newblock In {\em Proceedings of the 2010 International Conference on Semantic
+  web rules}, 2010.
+
+\bibitem[ChCP08]{CeCP08}
+Tser-yieth Chen, Chie-Bein Chen and Sin-Ying Peng.
+\newblock Firm operation performance analysis using data envelopment analysis
+  and balanced scorecard: A case study of a credit cooperative bank.
+\newblock {\em International Journal of Productivity and Performance
+  Management}, 57(7), 2008, S.~523--539.
+
+\bibitem[DeGe05]{DeGe05}
+James Devlin and Philip Gerrard.
+\newblock A study of customer choice criteria for multiple bank users.
+\newblock {\em Journal of Retailing and Consumer services}, 12(4), 2005,
+  S.~297--306.
+
+\bibitem[GaGi10]{GaGi10}
+Roberto Garcia and Rosa Gil.
+\newblock Triplificating and linking XBRL financial data.
+\newblock In {\em Proceedings of the 6th International Conference on Semantic
+  Systems}, 2010.
+
+\bibitem[Geor03]{Geor03}
+Darren George.
+\newblock {\em SPSS for windows step by step: A simple study guide and
+  reference, 17.0 update, 10/e}.
+\newblock Pearson Education India.
+\newblock 2003.
+
+\bibitem[Geye14]{Schu14}
+Andreas Geyer-Schulz.
+\newblock IISM/EM Information Services \& Electronic Markets Karlsruhe
+  Institute of Technology (KIT) -- BWL der Informationsunternehmen, Vorlesung
+  6. Entscheidungen bei Sicherheit (Teil 2), 2014.
+
+\bibitem[Giok08]{Gio08}
+Dimitris~I Giokas.
+\newblock Assessing the efficiency in operations of a large Greek bank branch
+  network adopting different economic behaviors.
+\newblock {\em Economic Modelling}, 25(3), 2008, S.~559--574.
+
+\bibitem[GSTa03]{GeTa03}
+Andreas Geyer-Schulz and Alfred Taudes (Hrsg.).
+\newblock {\em Informationswirtschaft ein Sektor mit Zukunft}. Band~0 der {\em
+  Lecture Notes in Informatics (LNI)}, K{\"o}llen Druck+Verlag GmbH, Bonn,
+  2003.
+
+\bibitem[HJSC97]{HaSC97}
+Claude~A Hanley~Jr, Mark~P Suter and Steve Cocheo.
+\newblock Banking's Top Performers.
+\newblock {\em ABA Banking Journal}, 89(7), 1997, S.~36.
+
+\bibitem[KPDZ06]{KPDZ06}
+Kyriaki Kosmidou, Fotios Pasiouras, Michael Doumpos and C~Zopounidis.
+\newblock Assessing performance factors in the UK banking sector: a
+  multicriteria methodology.
+\newblock {\em Central European Journal of Operations Research}, 14(1), 2006,
+  S.~25--44.
+
+\bibitem[KWOW{\etalchar{+}}14]{KWOW14}
+Benedikt K\"{a}mpgen, Tobias Weller, Se{\'a}n O'Riain, Craig Weber and Andreas
+  Harth.
+\newblock Accepting the XBRL Challenge with Linked Data for Financial Data
+  Integration.
+\newblock In {\em International Semantic Web Conference}, S.~595--610.
+  Springer, 2014.
+
+\bibitem[Mill98]{Mill98}
+Eric Miller.
+\newblock An introduction to the resource description framework.
+\newblock {\em Bulletin of the American Society for Information Science and
+  Technology}, 25(1), 1998, S.~15--19.
+
+\bibitem[O'CH12]{OCH12}
+Se{\'a}n O'Riain, Edward Curry and Andreas Harth.
+\newblock XBRL and open data for global financial ecosystems: A linked data
+  approach.
+\newblock {\em International Journal of Accounting Information Systems}, 13(2),
+  2012, S.~141--162.
+
+\bibitem[SeZh99]{SeZh99}
+Lawrence~M Seiford and Joe Zhu.
+\newblock Profitability and marketability of the top 55 US commercial banks.
+\newblock {\em management science}, 45(9), 1999, S.~1270--1288.
+
+\bibitem[SSHS13]{SSHS13}
+Steffen Stadtm\"{u}ller, Sebastian Speiser, Andreas Harth and Rudi Studer.
+\newblock Data-Fu: A Language and an Interpreter for Interaction with
+  Read/Write Linked Data.
+\newblock In {\em Proceedings of the 22nd International Conference on World
+  Wide Web}, WWW '13, 2013, S.~1225--1236.
+
+\bibitem[SwWN08]{SwWN08}
+Scott~D Swain, Danny Weathers and Ronald~W Niedrich.
+\newblock Assessing three sources of misresponse to reversed Likert items.
+\newblock {\em Journal of Marketing Research}, 45(1), 2008, S.~116--131.
+
+\bibitem[TaDe11]{TaDe11}
+Mohsen Tavakol and Reg Dennick.
+\newblock Making sense of Cronbach's alpha.
+\newblock {\em International journal of medical education}, Band~2, 2011,
+  S.~53.
+
+\bibitem[WeCS10]{WeCS10}
+Bert Weijters, Elke Cabooter and Niels Schillewaert.
+\newblock The effect of rating scale format on response styles: The number of
+  response categories and response category labels.
+\newblock {\em International Journal of Research in Marketing}, 27(3), 2010,
+  S.~236--247.
+
+\bibitem[Wei01]{Wei01}
+Quanling Wei.
+\newblock Data envelopment analysis.
+\newblock {\em Chinese Science Bulletin}, 46(16), 2001, S.~1321--1332.
+
+\bibitem[WeSN05]{WeSN05}
+Danny Weathers, Subhash Sharma and Ronald~W Niedrich.
+\newblock The impact of the number of scale points, dispositional factors, and
+  the status quo decision heuristic on scale reliability and response accuracy.
+\newblock {\em Journal of Business Research}, 58(11), 2005, S.~1516--1524.
+
+\bibitem[Wu12]{Wu12}
+Hung-Yi Wu.
+\newblock Constructing a strategy map for banking institutions with key
+  performance indicators of the balanced scorecard.
+\newblock {\em Evaluation and Program Planning}, 35(3), 2012, S.~303--320.
+
+\end{thebibliography}
