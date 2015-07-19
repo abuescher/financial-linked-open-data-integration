@@ -1,0 +1,25 @@
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX edgar: <http://edgarwrap.ontologycentral.com/vocab/edgar#>
+PREFIX us-gaap2009: <http://edgarwrap.ontologycentral.com/vocab/us-gaap-2009-01-31#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX measure: <http://purl.org/linked-data/sdmx/2009/measure#>
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#>
+PREFIX ab: <http://alexander-buescher.org/vocab/>
+
+SELECT DISTINCT ?db ?netIncomeLossDBpedia ?bankSEC ?netIncomeLossSEC ?start ?end WHERE {
+
+?bankSEC ab:linked ?db .
+?bankSEC edgar:cikNumber ?number .
+?db dbpedia-owl:netIncome ?netIncomeLossDBpedia .
+?bankSEC edgar:issued ?facts .
+
+?facts rdfs:seeAlso ?bn1 .
+
+?bn1 edgar:subject us-gaap2009:NetIncomeLoss .
+?bn1 measure:obsValue ?netIncomeLossSEC .
+?bn1 ical:dtstart ?start .
+?bn1 ical:dtend ?end .
+
+}

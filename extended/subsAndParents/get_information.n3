@@ -1,0 +1,28 @@
+@prefix http: <http://www.w3.org/2011/http#> . 
+@prefix httpm: <http://www.w3.org/2011/http-methods#> . 
+@prefix ab: <http://alexander-buescher.org/vocab/> .
+@prefix edgar: <http://edgarwrap.ontologycentral.com/vocab/edgar#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+
+{
+  ?x ab:linked ?y .
+} => {
+  [] http:mthd httpm:GET ;
+		http:requestURI ?y .
+} .
+
+{
+?db dbpprop:parent ?parent .
+} => {
+  [] http:mthd httpm:GET ;
+		http:requestURI ?parent .
+} .
+
+{
+?db dbpedia-owl:parentCompany ?parent .
+} => {
+  [] http:mthd httpm:GET ;
+		http:requestURI ?parent .
+} .
