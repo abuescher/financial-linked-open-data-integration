@@ -8,9 +8,19 @@ PREFIX measure: <http://purl.org/linked-data/sdmx/2009/measure#>
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#>
 PREFIX ab: <http://alexander-buescher.org/vocab/>
 
-SELECT ?bankSEC ?db ?parent ?parentLoc ?parentEmp WHERE {
+SELECT ?bankSEC ?db ?parent ?parentLoc ?parentEmp ?sub ?subLoc ?subEmp WHERE {
 ?bankSEC ab:linked ?db .
-?db dbpprop:parent ?parent .
-?parent dbpedia-owl:location ?parentLoc .
-?parent dbpedia-owl:numberOfEmployees ?parentEmp .
+{
+{ ?db dbpprop:parent ?parent . }
+OPTIONAL
+{?parent dbpedia-owl:numberOfEmployees ?parentEmp .
+?parent dbpedia-owl:location ?parentLoc .}
+}
+UNION
+{
+{?sub dbpprop:parent ?db .}
+OPTIONAL
+{?sub dbpedia-owl:numberOfEmployees ?subEmp .
+?sub dbpedia-owl:location ?subLoc .}
+}
 }
